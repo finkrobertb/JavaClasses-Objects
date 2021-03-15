@@ -3,13 +3,8 @@ package com.magiccalc;
 // Imports the Calculator class form com.calc
 import com.calc.Calculator;
 
-// Imports the math class
-//import java.lang.Math;
-
 class MagicCalculator extends Calculator
 {
-    // Square root, sin, cosine, tangent, factorial; use MATH class for trig
-
     static double squareRoot(double num)
     {
         num = Math.sqrt(num);
